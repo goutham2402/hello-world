@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowser">
+	<test name="ChromeResults">
+		<parameter name="Browser" value="Chrome"/>
+			<classes>
+				<class name="com.TestNg.Popup"></class>
+			</classes>
+			
+	</test>
+	<test name="IEResults">
+		<parameter name="Browser" value="Firefox"></parameter>
+			<classes>
+				<class name="com.TestNg.Popup"></class>
+			</classes>
+	</test>
+</suite> 

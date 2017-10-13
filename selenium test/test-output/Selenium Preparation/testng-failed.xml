@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Preparation]">
+  <test name="Build 1(failed)">
+    <classes>
+      <class name="com.TestNg.Popup">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.TestNg.Popup -->
+      <class name="com.TestNg.FirstTestCase">
+        <methods>
+          <include name="aest"/>
+          <include name="test"/>
+          <include name="zest"/>
+          <include name="cest"/>
+        </methods>
+      </class> <!-- com.TestNg.FirstTestCase -->
+      <class name="com.TestNg.NewTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.TestNg.NewTest -->
+    </classes>
+  </test> <!-- Build 1(failed) -->
+</suite> <!-- Failed suite [Selenium Preparation] -->

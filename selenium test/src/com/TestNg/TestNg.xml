@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Selenium Preparation">
+	<test name="Build 1">
+		<classes>
+			<class name="com.TestNg.FirstTestCase"></class>
+			<class name="com.TestNg.NewTest"></class>
+			<class name="com.TestNg.Popup"></class>
+		</classes>
+
+	</test>
+
+
+
+</suite>

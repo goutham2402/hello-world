@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="practiceCBT" thread-count="2" parallel="tests">
+	<test name="Chromeresult">
+		<parameters name="Browser" value="Chrome">
+			<classes>
+				<class name="com.TestNg.practiceCBT"></class>
+			</classes>
+		</parameters>
+	</test>
+	<test name="IEresult">
+		<parameters name="Browser" value="Chrome">
+			<classes>
+				<class name="com.TestNg.practiceCBT"></class>
+			</classes>
+		</parameters>
+	</test>
+</suite>
